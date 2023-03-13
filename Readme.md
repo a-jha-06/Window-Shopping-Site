@@ -12,8 +12,9 @@ React Test Project : E-Commerce Website
 <li>Remove From Cart</li>
 </ul>
 
-#Tech Stack
-
-React
-CSS
-HTML
+# Tech Stack
+<ul>
+<li>React</li>
+<li>CSS</li>
+<li>HTML</li>
+</ul>
