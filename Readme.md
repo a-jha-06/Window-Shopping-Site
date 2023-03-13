@@ -1,4 +1,4 @@
-# Window Shopping E-site
+# Window Shopping Site
 
 React Test Project : E-Commerce Website
 
