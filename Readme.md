@@ -1,6 +1,6 @@
 # Window Shopping E-site
 
-React Test Project
+React Test Project : E-Commerce Website
 
 # Features:
 <ul>
