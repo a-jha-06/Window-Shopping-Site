@@ -18,3 +18,6 @@ React Test Project : E-Commerce Website
 <li>CSS</li>
 <li>HTML</li>
 </ul>
+
+Preview:
+![Semantic description of image](./components/images/untitled.png "Image Title")
