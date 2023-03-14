@@ -20,4 +20,4 @@ React Test Project : E-Commerce Website
 </ul>
 
 Preview:
-![Semantic description of image](./components/images/untitled.png "Image Title")
+![Site image](/my-app/src/components/images/untitled.png "Image Title")
