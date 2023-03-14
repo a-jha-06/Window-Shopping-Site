@@ -20,4 +20,4 @@ React Test Project : E-Commerce Website
 </ul>
 
 Preview:
-![Site image](/untitled.png "Image Title")
+"https://github.com/a-jha-06/Window-Shopping-Site/blob/First-Commit/Untitled.png"
