@@ -17,9 +17,8 @@ const Header = () => {
         </Link>
     </div>
     <div className="header_search">
-        <SearchIcon fontSize='small'/>&nbsp;
-
-        <input className=" butt" />
+        <input className=" butt"/>&nbsp;
+        <SearchIcon fontSize='small'/>
 
     </div>
     <div className="header_nav">
@@ -28,13 +27,16 @@ const Header = () => {
             <br/>
             <br/>
         </div>&nbsp;
-        <div className="header_nav_itemBasket">
+    </div>
+    <div className="header_nav_itemBasket">
+   
             <Link to="/checkout">
             <ShoppingCartIcon fontSize='small'/>{state.cartList.length}&nbsp;
             Cart
+            <br/>
             </Link>
-        
-        </div>
+            
+            
     </div>
  </header>
  )

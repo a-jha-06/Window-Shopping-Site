@@ -5,15 +5,12 @@ import Banner from "./components/Banner";
 import ProductList from "./components/ProductList";
 import Checkout from "./components/Checkout";
 import ShoppingBasket from "./components/ShoppingBasket";
-import GoogleButton from 'react-google-button';
+//import Login from "./components/Login";
+import './App.css';
 function App () {
   return (
     
     <Router>
-      <GoogleButton
-  label='Click to Sign In'
-  onClick={() => { console.log('Google button clicked') }}
-/>
       <Header/>
       <Routes>
         <Route exact path="/" element={

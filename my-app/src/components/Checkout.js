@@ -1,4 +1,5 @@
 import './checkout.css';
+import './Showalert';
 import { useStateValue } from './StateProvider';
 
 const Checkout = () => {
@@ -12,7 +13,9 @@ const Checkout = () => {
     })
     return total;
   }
-
+  const showAlert = () => {
+    alert("Proceed to Payment");
+  }
     return(
     <div className="checkoutAd">
       <div className='leftSide'>
@@ -22,7 +25,9 @@ const Checkout = () => {
         <div className="subtotal">
           <p>Subtotal({state.cartList.length} items): <strong>${getTotalAmount()}</strong></p>
           <p><input type="checkbox"/>This order contains a gift</p>
-          <button>Proceed to Checkout</button>
+          <button onClick={showAlert}>
+               Checkout
+          </button>
         </div>
       </div>
     </div>

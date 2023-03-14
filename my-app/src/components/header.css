@@ -1,26 +1,31 @@
 .header_logo {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-  }
-  .header_nav {
-    align-items: center;
-    display: flex;
-  }
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header_nav {
+  align-items: center;
+  display: flex;
+}
 
 .header_search {
-    display: inline-block;
-  margin: 25px;
-
+display: flex;
+margin: 25px;
 }
 .header {
-    display: flex;
-    justify-content:space-between;
-    position: sticky;
-    background-color: #E6E6FA;
-    top: 0;
-    z-index: 100;
-    color: red;
-    align-items: center;
+  display: flex;
+  justify-content:space-between;
+  position: sticky;
+  background-color: #EDAEC0;
+  z-index: 100;
+  color: whitesmoke;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.butt {
+justify-content: space-between;
+width: 550px;
 }
