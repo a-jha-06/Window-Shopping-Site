@@ -20,4 +20,4 @@ React Test Project : E-Commerce Website
 </ul>
 
 Preview:
-![Site image](/my-app/src/components/images/untitled.png "Image Title")
+![Site image](/untitled.png "Image Title")
