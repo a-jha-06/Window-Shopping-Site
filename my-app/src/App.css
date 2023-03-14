@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: aquamarine;
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: blue;
+  color: rgb(255, 0, 0);
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +37,4 @@
     transform: rotate(360deg);
   }
 }
+
